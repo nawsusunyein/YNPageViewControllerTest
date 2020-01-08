@@ -13,7 +13,7 @@
 
 #define kOpenRefreshHeaderViewHeight 0
 
-@interface YNSuspendTopPausePageVC () <YNPageViewControllerDelegate, SDCycleScrollViewDelegate>
+@interface YNSuspendTopPausePageVC () <YNPageViewControllerDataSource, YNPageViewControllerDelegate, SDCycleScrollViewDelegate>
 
 @property (nonatomic, copy) NSArray *imagesURLs;
 
